@@ -7,23 +7,23 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player_idle</sprite>
-    <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player_run</sprite>
     <sprite>sprites\spr_player_jump</sprite>
     <sprite>sprites\spr_player_fall</sprite>
-    <sprite>sprites\spr_sidewalk</sprite>
+    <sprite>sprites\spr_collision</sprite>
+    <sprite>sprites\spr_collision_off</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background1</background>
+    <background>background\tileset_1</background>
+    <background>background\tileset_2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_sidewalk</object>
+    <object>objects\obj_collision</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -30,7 +30,7 @@ grav = 0.2;
 hsp = 0; //horizontal speed
 hsp_carry = 0;
 vsp = 0; //vertical speed
-movespeed = 7;
+movespeed = 4;
 jumps = 0;
 depth = 1;
 jumpsmax = 2;
@@ -120,7 +120,7 @@ y += vsp;
 if (move!=0) image_xscale = move;
 if (place_meeting(x,y+1,obj_collision))
 {
-    if (move!=0) sprite_index = spr_player_run; else sprite_index = spr_player_idle;
+    if (move!=0) sprite_index = spr_player_walk; else sprite_index = spr_player_idle;
 }
 else
 {

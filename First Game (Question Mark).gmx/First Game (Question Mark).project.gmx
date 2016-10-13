@@ -7,15 +7,15 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player_idle</sprite>
-    <sprite>sprites\spr_player_run</sprite>
     <sprite>sprites\spr_player_jump</sprite>
     <sprite>sprites\spr_player_fall</sprite>
     <sprite>sprites\spr_collision</sprite>
     <sprite>sprites\spr_collision_off</sprite>
+    <sprite>sprites\spr_player_walk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileset_1</background>
-    <background>background\tileset_2</background>
+    <background>background\tileset_sky</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
